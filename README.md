@@ -1,2 +1,2 @@
 # Ta-Do-
-Hackathon Project 2018: tool to convert user quick-notes ('ta-dos') into calendar events through decision-making and access to user's Google Calendar
+Hackathon Project 2018: tool to convert user quick-notes ('ta-dos') into calendar events through decision-making and access to user's Google Calendar. Written in C# and uses Google Calendar API. 
