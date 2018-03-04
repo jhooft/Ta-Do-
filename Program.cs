@@ -27,7 +27,7 @@ namespace CalendarQuickstart
             CalendarWork working_calendar = new CalendarWork();
             CalendarService working_calendar_service = working_calendar.SetUpAccess();
             var list = working_calendar_service.CalendarList.List().Execute();
-            var cal_to_use = list.Items.SingleOrDefault(c => c.Summary == "johooft@gmail.com");
+            var cal_to_use = list.Items.SingleOrDefault(c => c.Summary == "generic_user@gmail.com");//needs true user handle
             
             //Calendar tadocal = working_calendar.CreateTaDoCalendar();            
             //working_calendar.insert_calendar_trial( working_calendar_service, tadocal );        
