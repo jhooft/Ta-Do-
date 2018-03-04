@@ -172,23 +172,4 @@ namespace CalendarMaster
         
     }//end class CreatedCalendar
 }
-/*internal void specialhackadd()///this one works!
-        {
 
-            Event newevent = new Event
-            {
-                Summary = "finish hacking!!",
-                Start = new EventDateTime
-                {
-                    DateTime = new DateTime(2018, 3, 4, 11, 0, 0)
-                },
-                End = new EventDateTime
-                {
-                    DateTime = new DateTime(2018, 3, 4, 11, 15, 0)
-                }
-
-            };
-
-            var newEventRequest = working_calendar_service.Events.Insert(newevent, cal_to_use.Id);
-            var eventResult = newEventRequest.Execute();
-        }*/
